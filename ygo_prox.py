@@ -64,7 +64,7 @@ def decklist_to_docx(deck_file, output_docx, card_width=2.31, card_height=3.37, 
             line = line.strip()
             if not line:
                 continue
-            if line.lower() in ["monster", "spell", "trap", "extra", "side"]:
+            if line.lower() in ["monster", "spell", "trap", "extra", "side", "몬스터", "마법", "함정", "엑스트라", "사이드"]:
                 continue  # skip headers
 
             parts = line.split(" ", 1)
