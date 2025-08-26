@@ -1,4 +1,4 @@
-몬스터
+Monster
 3 Handy Lady
 3 Handy Girl
 3 Freewind
@@ -6,7 +6,7 @@
 2 Under Dealer
 3 Phantom Float
 1 Raiza the Storm Monarch
-마법
+Spell
 3 Psymprinting
 3 Secret Order
 2 Piping Hot Delivery
@@ -14,14 +14,15 @@
 1 Pot of Greed
 1 Jest of the Cosmos Princess
 2 Over Rush Storm
-함정
+Trap
 2 Cross Target
 2 New Start
 2 Hack for the Intel
 1 Mirror Force
-엑스트라
+Extra
 3 Handy Partners
-
+Side
+1 New Start
 
 
 
