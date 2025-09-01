@@ -92,7 +92,7 @@ def decklist_to_docx(
         print(f"Searching: {card_name}")
         img_url = get_card_image(card_name)
         if not img_url:
-            print(f"⚠️ No image found for {card_name}")
+            print(f"No image found for {card_name}")
             continue
 
         # Download image once and reuse
@@ -110,7 +110,7 @@ def decklist_to_docx(
             if paragraph is None or current_row_runs >= per_row:
                 paragraph = doc.add_paragraph()
 
-                # 🔻 Set tight spacing for this row
+                # Set tight spacing for this row
                 pf = paragraph.paragraph_format
                 pf.space_before = Pt(0)
                 pf.space_after = Pt(0)
